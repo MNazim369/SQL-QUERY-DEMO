@@ -1,0 +1,7 @@
+Which Operator is Used in a Query for Pattern Matching?
+The LIKE operator is used for pattern matching:
+•	Example:
+sql
+Copy code
+SELECT * FROM Employees
+WHERE EmployeeName LIKE 'J%';  -- Finds names starting with 'J'
